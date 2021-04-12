@@ -1,0 +1,28 @@
+#container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  /* margin-top:10rem; */
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  background-color: rgb(179, 228, 195);
+  border: 2px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5%;
+  min-width: 2rem;
+  min-height: 4rem;
+}
+.content:hover {
+  background-color: aliceblue;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+}
+
